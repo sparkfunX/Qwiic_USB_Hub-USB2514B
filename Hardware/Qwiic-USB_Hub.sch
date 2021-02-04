@@ -15127,7 +15127,7 @@ Switches electrical signals</description>
 </class>
 <class number="1" name="power" width="0.1778" drill="0">
 </class>
-<class number="2" name="3.3V" width="0.508" drill="0">
+<class number="2" name="3.3V" width="0.3048" drill="0">
 </class>
 <class number="3" name="RF" width="0.35" drill="0">
 <clearance class="3" value="0.2032"/>
@@ -15611,7 +15611,7 @@ to allow &gt;2A current flows.</text>
 <busses>
 </busses>
 <nets>
-<net name="3.3V" class="0">
+<net name="3.3V" class="2">
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
