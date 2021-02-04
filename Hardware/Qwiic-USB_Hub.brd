@@ -7301,6 +7301,18 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="VALUE" x="12.7" y="36.068" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="U$23" library="output" package="#LED#0" value="" x="12.7" y="25.781" smashed="yes"/>
+<element name="U$11" library="output" package="#GND#5" value="" x="13.97" y="77.343" smashed="yes" rot="MR90"/>
+<element name="U$24" library="output" package="##OSC4##1" value="" x="16.51" y="76.835" smashed="yes" rot="MR90"/>
+<element name="U$25" library="output" package="##OSC3##0" value="" x="19.05" y="76.835" smashed="yes" rot="MR90"/>
+<element name="U$28" library="output" package="##OSC2##2" value="" x="21.59" y="76.835" smashed="yes" rot="MR90"/>
+<element name="U$29" library="output" package="##OSC1##3" value="" x="24.13" y="76.962" smashed="yes" rot="MR90"/>
+<element name="U$31" library="output" package="##RST##4" value="" x="26.67" y="77.343" smashed="yes" rot="MR90"/>
+<element name="U$32" library="output" package="#3#3V#6" value="" x="29.21" y="77.216" smashed="yes" rot="MR90"/>
+<element name="U$37" library="output" package="#5V#7" value="" x="31.75" y="77.851" smashed="yes" rot="MR90"/>
+<element name="U$38" library="SparkX" package="SPARKX-MEDIUM" value="SPARKX-LOGO4" x="21.59" y="16.51" smashed="yes" rot="MR0"/>
+<element name="U$39" library="output" package="QWIIC2" value="" x="21.59" y="13.97" smashed="yes" rot="MR0"/>
+<element name="U$40" library="output" package="USB_HUB1" value="" x="21.59" y="11.43" smashed="yes" rot="MR0"/>
+<element name="U$41" library="output" package="USB2514B0" value="" x="21.59" y="8.89" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="3.3V" class="2">
@@ -8149,7 +8161,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <approved hash="5,1,830f923ca147008c"/>
 <approved hash="5,1,abc84090dd7539d5"/>
 <approved hash="5,1,ad0b49abd44e3d38"/>
-<approved hash="7,39,e3d3c3b3b98fa217"/>
 <approved hash="19,1,402840f1b0c5b01c"/>
 <approved hash="19,1,8eabde9f49f76973"/>
 <approved hash="19,1,68681739430d3c5c"/>
