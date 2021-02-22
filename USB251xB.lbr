@@ -366,7 +366,9 @@
 <connect gate="U1" pin="XTALOUT" pad="32"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-15827" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
