@@ -288,7 +288,7 @@
 <wire x1="15.24" y1="25.4" x2="-17.78" y2="25.4" width="0.254" layer="94"/>
 <pin name="GND" x="-20.32" y="-30.48" length="short"/>
 <pin name="USBDM_DN1" x="17.78" y="22.86" length="short" rot="R180"/>
-<pin name="HS_IND" x="-20.32" y="10.16" length="short"/>
+<pin name="HS_IND/CFG1" x="-20.32" y="10.16" length="short"/>
 <text x="-17.78" y="25.908" size="1.778" layer="95">&gt;Name</text>
 <text x="-17.78" y="-35.306" size="1.778" layer="96">&gt;Value</text>
 <pin name="PRTPWR2" x="17.78" y="2.54" length="short" rot="R180"/>
@@ -311,7 +311,7 @@
 <pin name="CRFILT" x="-20.32" y="15.24" length="short"/>
 <pin name="VDD33" x="-20.32" y="22.86" length="short"/>
 <pin name="SDA" x="-20.32" y="-12.7" length="short"/>
-<pin name="SCL" x="-20.32" y="-10.16" length="short"/>
+<pin name="SCL/CFG0" x="-20.32" y="-10.16" length="short"/>
 <pin name="USBDM_DN3" x="17.78" y="-2.54" length="short" rot="R180"/>
 <pin name="USBDP_DN3" x="17.78" y="-5.08" length="short" rot="R180"/>
 <pin name="USBDM_DN4" x="17.78" y="-15.24" length="short" rot="R180"/>
@@ -338,14 +338,14 @@
 <connect gate="U1" pin="!RESET" pad="26"/>
 <connect gate="U1" pin="CRFILT" pad="14"/>
 <connect gate="U1" pin="GND" pad="EP"/>
-<connect gate="U1" pin="HS_IND" pad="25"/>
+<connect gate="U1" pin="HS_IND/CFG1" pad="25"/>
 <connect gate="U1" pin="PLLFILT" pad="34"/>
 <connect gate="U1" pin="PRTPWR1" pad="12"/>
 <connect gate="U1" pin="PRTPWR2" pad="16"/>
 <connect gate="U1" pin="PRTPWR3" pad="18"/>
 <connect gate="U1" pin="PRTPWR4" pad="20"/>
 <connect gate="U1" pin="RBIAS" pad="35"/>
-<connect gate="U1" pin="SCL" pad="24"/>
+<connect gate="U1" pin="SCL/CFG0" pad="24"/>
 <connect gate="U1" pin="SDA" pad="22"/>
 <connect gate="U1" pin="SUSP_IND" pad="28"/>
 <connect gate="U1" pin="TEST" pad="11"/>
